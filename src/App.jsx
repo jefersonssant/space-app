@@ -76,7 +76,7 @@ function App() {
         <MainContainer>
           <BarraLateral />
           <ConteudoGaleria>
-            <Banner backgroundImage="src/assets/Banner.png" texto="A galeria mais completa de fotos do espaço!" />
+            <Banner backgroundImage="/src/assets/Banner.png" texto="A galeria mais completa de fotos do espaço!" />
             <Galeria 
               aoFotoSelecionada={foto=> setFotoSelecionada(foto)} 
               fotos={fotosDaGaleria}
